@@ -1,6 +1,6 @@
 # ebimu with ros2
 
-#실행 방법
+# 실행 방법
 ```
 cd ~/colcon_ws
 colcon build --packages-select tune_walk
