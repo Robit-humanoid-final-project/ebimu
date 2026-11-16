@@ -3,9 +3,9 @@
 # 실행 방법
 ```
 cd ~/colcon_ws
-colcon build --packages-select tune_walk
+colcon build --packages-select ebimu
 source install/setup.bash
-ros2 run tune_walk tune_walk
+ros2 launch ebimu e2box_imu_9dofv4.launch.py
 ```
 
 - quaternion -> euler
